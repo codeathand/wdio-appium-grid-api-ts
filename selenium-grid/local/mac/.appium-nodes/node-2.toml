@@ -1,0 +1,12 @@
+[server]
+port = 5562
+
+[node]
+detect-drivers = false
+
+[relay]
+url = "http://localhost:4763"
+status-endpoint = "/status"
+configs = [
+    "1", "{\"platformName\": \"iOS\", \"appium:udid\": \"00008101-0019752E3C93A01E\", \"appium:automationName\": \"XCUITest\", \"appium:usePrebuiltWDA\": true, \"appium:webDriverAgentUrl\": \"http://localhost:8102\", \"appium:updatedWDABundleId\": \"rs.yettelbank.WebDriverAgentRunner2\"}"
+]

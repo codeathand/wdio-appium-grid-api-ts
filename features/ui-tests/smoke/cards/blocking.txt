@@ -1,0 +1,448 @@
+{
+
+  "@timestamp": "2025-08-15T12:33:01.657609637+02:00",
+
+  "logger_name": "org.zalando.logbook.Logbook",
+
+  "level": "TRACE",
+
+  "traceId": "1e27829344e679540378fef99fe6158d",
+
+  "spanId": "467a446935d37e83",
+
+  "thread_name": "tomcat-handler-1604545",
+
+  "message": {
+
+    "origin": "remote",
+
+    "type": "request",
+
+    "correlation": "92a69e81d953c975",
+
+    "protocol": "HTTP/1.1",
+
+    "remote": "109.245.132.84",
+
+    "method": "PUT",
+
+    "uri": "https://be-card-overview.be-card-overview/internal/v1/cards-overview/1969435/blocking",
+
+    "host": "be-card-overview.be-card-overview",
+
+    "path": "/internal/v1/cards-overview/1969435/blocking",
+
+    "scheme": "https",
+
+    "port": "443",
+
+    "headers": {
+
+      "accept": [
+
+        "application/json"
+
+      ],
+
+      "accept-encoding": [
+
+        "gzip, deflate"
+
+      ],
+
+      "accept-language": [
+
+        "en"
+
+      ],
+
+      "authorization": [
+
+        "XXX"
+
+      ],
+
+      "b3": [
+
+        "1e27829344e679540378fef99fe6158d-4357ce17c45cd98f-0-0fda2af1bc81179c"
+
+      ],
+
+      "content-length": [
+
+        "53"
+
+      ],
+
+      "content-type": [
+
+        "application/json"
+
+      ],
+
+      "forwarded": [
+
+        "proto=https;host=\"be-auth.be-auth:80\";for=\"109.245.132.84:35562\""
+
+      ],
+
+      "host": [
+
+        "be-card-overview.be-card-overview"
+
+      ],
+
+      "user-agent": [
+
+        "Dart/3.6 (dart:io)"
+
+      ],
+
+      "x-app-version": [
+
+        "4.0.23"
+
+      ],
+
+      "x-channel-code": [
+
+        "Bankmobile"
+
+      ],
+
+      "x-customer-id": [
+
+        "166693"
+
+      ],
+
+      "x-forwarded-host": [
+
+        "t2.online.mobibanka.rs,t2.online.mobibanka.rs:80"
+
+      ],
+
+      "x-forwarded-port": [
+
+        "80,80"
+
+      ],
+
+      "x-forwarded-proto": [
+
+        "https,https"
+
+      ],
+
+      "x-forwarded-via": [
+
+        "KrakenD Version 2.7.1"
+
+      ],
+
+      "x-operation-id": [
+
+        "8786f8ca-ec34-447f-83f2-25f5bee12023"
+
+      ],
+
+      "x-powerauth-authorization": [
+
+        "PowerAuth pa_version=\"3.2\", pa_activation_id=\"f5a98be9-cb2f-420c-b2ae-c4d918dad367\", pa_application_key=\"yq3rl269Jkets0MLi3t0Ig==\", pa_nonce=\"0NjmTtc3NLi2Ryudl1Viaw==\", pa_signature_type=\"possession_knowledge\", pa_signature=\"nkTUyQX49/sEi2rR5GkpbMSKyol4wVt7InpizV6pfso=\""
+
+      ]
+
+    },
+
+    "body": {
+
+      "blockReason": "BLOCKED_BY_USER",
+
+      "isPermanent": false
+
+    }
+
+  }
+
+}
+ 
+
+
+ ******************************************************************
+
+ {"@timestamp":"2025-08-15T13:01:30.116256239+02:00","logger_name":"org.zalando.logbook.Logbook","level":"TRACE","traceId":"0178b0fa168af2936c1cc87647b15ff8","spanId":"a32d73573d82d5ba","thread_name":"tomcat-handler-1591052","message":{"origin":"remote","type":"request","correlation":"817608316957dbcd","protocol":"HTTP/1.1","remote":"10.122.20.132","method":"PUT","uri":"http://be-card-overview.be-card-overview/internal/v2/cards-overview/1456634/unblocking","host":"be-card-overview.be-card-overview","path":"/internal/v2/cards-overview/1456634/unblocking","scheme":"http","port":"80","headers":{"accept":["application/json"],"accept-encoding":["gzip, deflate"],"accept-language":["sr-Latn"],"authorization":["XXX"],"b3":["0178b0fa168af2936c1cc87647b15ff8-fa35aa1eb215ddce-0-1f45658cfcb3b08c"],"content-length":["48"],"content-type":["application/json"],"forwarded":["proto=http;host=\"be-auth.be-auth:80\";for=\"10.122.20.132:56904\""],"host":["be-card-overview.be-card-overview"],"user-agent":["Dart/3.6 (dart:io)"],"x-app-version":["4.0.24"],"x-channel-code":["Bankmobile"],"x-customer-id":["1008071"],"x-forwarded-host":["t3.online.mobibanka.rs,t3.online.mobibanka.rs"],"x-forwarded-port":["80,80"],"x-forwarded-proto":["http,http"],"x-forwarded-via":["KrakenD Version 2.7.1"],"x-operation-id":["1b0ea45d-2d2c-497f-bb28-bf3f4b439f46"],"x-powerauth-authorization":["PowerAuth pa_version=\"3.2\", pa_activation_id=\"9302fa6f-18b8-4903-b653-ae25e0276200\", pa_application_key=\"vpbwERI4Z0rTKdtJJNuE8A==\", pa_nonce=\"eVG0653PiF6YmI6T15JizA==\", pa_signature_type=\"possession_knowledge\", pa_signature=\"tvYsKpYxndaqVDJKYTylg3dz0//4lq1JdXfnfxaTqqA=\""]},"body":{"deviceId":"1456634","digitsToValidate":"0379"}}}
+
+
+
+ {
+   "@timestamp":"2025-08-15T13:01:30.116256239+02:00",
+   "logger_name":"org.zalando.logbook.Logbook",
+   "level":"TRACE",
+   "traceId":"0178b0fa168af2936c1cc87647b15ff8",
+   "spanId":"a32d73573d82d5ba",
+   "thread_name":"tomcat-handler-1591052",
+   "message":{
+      "origin":"remote",
+      "type":"request",
+      "correlation":"817608316957dbcd",
+      "protocol":"HTTP/1.1",
+      "remote":"10.122.20.132",
+      "method":"PUT",
+      "uri":"http://be-card-overview.be-card-overview/internal/v2/cards-overview/1456634/unblocking",
+      "host":"be-card-overview.be-card-overview",
+      "path":"/internal/v2/cards-overview/1456634/unblocking",
+      "scheme":"http",
+      "port":"80",
+      "headers":{
+         "accept":[
+            "application/json"
+         ],
+         "accept-encoding":[
+            "gzip, deflate"
+         ],
+         "accept-language":[
+            "sr-Latn"
+         ],
+         "authorization":[
+            "XXX"
+         ],
+         "b3":[
+            "0178b0fa168af2936c1cc87647b15ff8-fa35aa1eb215ddce-0-1f45658cfcb3b08c"
+         ],
+         "content-length":[
+            "48"
+         ],
+         "content-type":[
+            "application/json"
+         ],
+         "forwarded":[
+            "proto=http;host=\"be-auth.be-auth:80\";for=\"10.122.20.132:56904\""
+         ],
+         "host":[
+            "be-card-overview.be-card-overview"
+         ],
+         "user-agent":[
+            "Dart/3.6 (dart:io)"
+         ],
+         "x-app-version":[
+            "4.0.24"
+         ],
+         "x-channel-code":[
+            "Bankmobile"
+         ],
+         "x-customer-id":[
+            "1008071"
+         ],
+         "x-forwarded-host":[
+            "t3.online.mobibanka.rs,t3.online.mobibanka.rs"
+         ],
+         "x-forwarded-port":[
+            "80,80"
+         ],
+         "x-forwarded-proto":[
+            "http,http"
+         ],
+         "x-forwarded-via":[
+            "KrakenD Version 2.7.1"
+         ],
+         "x-operation-id":[
+            "1b0ea45d-2d2c-497f-bb28-bf3f4b439f46"
+         ],
+         "x-powerauth-authorization":[
+            "PowerAuth pa_version=\"3.2\", pa_activation_id=\"9302fa6f-18b8-4903-b653-ae25e0276200\", pa_application_key=\"vpbwERI4Z0rTKdtJJNuE8A==\", pa_nonce=\"eVG0653PiF6YmI6T15JizA==\", pa_signature_type=\"possession_knowledge\", pa_signature=\"tvYsKpYxndaqVDJKYTylg3dz0//4lq1JdXfnfxaTqqA=\""
+         ]
+      },
+      "body":{
+         "deviceId":"1456634",
+         "digitsToValidate":"0379"
+      }
+   }
+}
+
+PowerAuth pa_version="3.2", pa_activation_id="f5a98be9-cb2f-420c-b2ae-c4d918dad367", pa_application_key="yq3rl269Jkets0MLi3t0Ig==", pa_nonce="0NjmTtc3NLi2Ryudl1Viaw==", pa_signature_type="possession_knowledge", pa_signature="nkTUyQX49/sEi2rR5GkpbMSKyol4wVt7InpizV6pfso="
+
+
+{
+
+   "@timestamp":"2025-08-15T13:48:20.401736224+02:00",
+
+   "logger_name":"org.zalando.logbook.Logbook",
+
+   "level":"TRACE",
+
+   "traceId":"7828fb5856be3a4019977bf08cbe8371",
+
+   "spanId":"08c50e789b8513ba",
+
+   "thread_name":"reactor-http-epoll-10",
+
+   "message":{
+
+      "origin":"local",
+
+      "type":"request",
+
+      "correlation":"d1087c2522fc09fe",
+
+      "protocol":"HTTP/1.1",
+
+      "remote":"localhost",
+
+      "method":"GET",
+
+      "uri":"http://t3ipsarr/backendconnectors/v1/device/issued-devices?customer-number=1008071&arrangement-number=0064305621810&card-statuses=valid&card-statuses=temporary-blocked-by-user&card-statuses=inactive&card-statuses=blocked&card-statuses=ready-for-user-activation&sort-order=asc",
+
+      "host":"t3ipsarr",
+
+      "path":"/backendconnectors/v1/device/issued-devices",
+
+      "scheme":"http",
+
+      "headers":{
+
+         "Accept":[
+
+            "application/json"
+
+         ],
+
+         "Authorization":[
+
+            "XXX"
+
+         ],
+
+         "b3":[
+
+            "7828fb5856be3a4019977bf08cbe8371-08c50e789b8513ba-0-55eaf3a8df4818f9"
+
+         ],
+
+         "channelCode":[
+
+            "Bankmobile"
+
+         ],
+
+         "customerid":[
+
+            "1008071"
+
+         ],
+
+         "Preferred-Client-Culture":[
+
+            "sr-Latn-RS",
+
+            "sr-Latn-RS"
+
+         ],
+
+         "X-Channel-Code":[
+
+            "Bankmobile"
+
+         ],
+
+         "X-Customer-Id":[
+
+            "1008071"
+
+         ]
+
+      }
+
+   }
+
+}
+ 
+
+ {
+  "@timestamp": "2025-08-18T10:14:00.637474274+02:00",
+  "logger_name": "org.zalando.logbook.Logbook",
+  "level": "TRACE",
+  "traceId": "196370a47967923339ee2d6c11e8ae48",
+  "spanId": "8050eeae65ef02b2",
+  "thread_name": "tomcat-handler-1671635",
+  "message": {
+    "origin": "remote",
+    "type": "request",
+    "correlation": "c4e3d1ef6aaa91f2",
+    "protocol": "HTTP/1.1",
+    "remote": "10.122.20.132",
+    "method": "POST",
+    "uri": "https://be-card-overview.be-card-overview/internal/v1/cards-overview/card-replacement",
+    "host": "be-card-overview.be-card-overview",
+    "path": "/internal/v1/cards-overview/card-replacement",
+    "scheme": "https",
+    "port": "443",
+    "headers": {
+      "accept": [
+        "application/json"
+      ],
+      "accept-encoding": [
+        "gzip, deflate"
+      ],
+      "accept-language": [
+        "sr-Latn"
+      ],
+      "authorization": [
+        "XXX"
+      ],
+      "b3": [
+        "196370a47967923339ee2d6c11e8ae48-c32553501a303a30-0-015788d8734a94ea"
+      ],
+      "content-length": [
+        "88"
+      ],
+      "content-type": [
+        "application/json"
+      ],
+      "forwarded": [
+        "proto=https;host=\"be-auth.be-auth:80\";for=\"10.122.20.132:60394\""
+      ],
+      "host": [
+        "be-card-overview.be-card-overview"
+      ],
+      "user-agent": [
+        "Dart/3.6 (dart:io)"
+      ],
+      "x-app-version": [
+        "4.0.23"
+      ],
+      "x-channel-code": [
+        "Bankmobile"
+      ],
+      "x-customer-id": [
+        "354083"
+      ],
+      "x-forwarded-host": [
+        "t2.online.mobibanka.rs,t2.online.mobibanka.rs:80"
+      ],
+      "x-forwarded-port": [
+        "80,80"
+      ],
+      "x-forwarded-proto": [
+        "https,https"
+      ],
+      "x-forwarded-via": [
+        "KrakenD Version 2.7.1"
+      ],
+      "x-operation-id": [
+        "0184d117-87f2-4d3e-8610-b2875c9bfa72"
+      ],
+      "x-powerauth-authorization": [
+        "PowerAuth pa_version=\"3.2\", pa_activation_id=\"2e105e94-10ba-4f1f-902b-0ec213019278\", pa_application_key=\"yq3rl269Jkets0MLi3t0Ig==\", pa_nonce=\"Hhq0f3+OfS4kw0GfLcZOnQ==\", pa_signature_type=\"possession_biometry\", pa_signature=\"1SthiPt7PC5VcG4+jb5RpNWMV9UXnh3HwUDDKmFawvs=\""
+      ]
+    },
+    "body": {
+      "deviceId": "1781458",
+      "replacementReason": "CARD_LOSSES",
+      "embossedName": "DRAGAN SUČIĆ"
+    }
+  }
+}
+java -jar "C:\main_source\04_tag\wdio-mobile-api-ts\selenium-grid\local\lib\selenium-server-4.34.0.jar" node --config "C:\main_source\04_tag\wdio-mobile-api-ts\selenium-grid\local\windows\PC_Milos\.appium-nodes\node-2.toml"
+java -jar "C:\main_source\04_tag\wdio-mobile-api-ts\selenium-grid\local\lib\selenium-server-4.34.0.jar" node --config "C:\main_source\04_tag\wdio-mobile-api-ts\selenium-grid\local\windows\PC_Milos\.appium-nodes\node-3.toml"
+appium --config "C:\main_source\04_tag\wdio-mobile-api-ts\selenium-grid\local\windows\PC_Milos\.appium-configs\appium-2.yml"
+appium --config "C:\main_source\04_tag\wdio-mobile-api-ts\selenium-grid\local\windows\PC_Milos\.appium-configs\appium-3.yml"

@@ -1,0 +1,80 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# TypeScript cache and output
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor files
+.idea/
+*.swp
+
+# Environment variables
+.env
+.env.*
+*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Allure reports
+allure-results/
+allure-report/
+reports/
+
+# WebdriverIO specific
+.wdio/
+wdio-*
+reports/
+
+# Appium logs and outputs
+appium.log
+appium-output/
+appium-reports/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# ESLint and Prettier cache
+.eslintcache
+.prettiercache
+
+# Jest or Mocha cache (if used)
+jest-cache/
+.mocha/
+.nyc_output/
+
+# Lock files (optional if using npm or yarn consistently)
+# package-lock.json
+# yarn.lock
+
+# Generated files
+*.pid
+*.seed
+
+# Ignore delete files
+delete/
+
+# Ignore dumped UI artifacts and delete files
+artifacts/
+
+# Ignore mjpeg-viewers files
+mjpeg-viewers/
+

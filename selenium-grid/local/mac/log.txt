@@ -1,0 +1,677 @@
+14:35:35  Acquired tunnel connection to device.
+14:35:35  Enabling developer disk image services.
+14:35:35  Acquired usage assertion.
+ERROR: The application failed to launch. (com.apple.dt.CoreDeviceError error 10002 (0x2712))
+       NSLocalizedFailureReason = The requested application com.facebook.WebDriverAgentRunner4.xctrunner4 is not installed.
+       BundleIdentifier = com.facebook.WebDriverAgentRunner4.xctrunner4
+       NSLocalizedRecoverySuggestion = Provide a valid bundle identifier.
+       ----------------------------------------
+           The operation couldn’t be completed. (OSStatus error -10814.) (NSOSStatusErrorDomain error -10814 (0xFFFFD5C2))
+           _LSFunction = runEvaluator
+           _LSLine = 1796
+
+           14:35:05  Acquired tunnel connection to device.
+14:35:05  Enabling developer disk image services.
+14:35:05  Acquired usage assertion.
+ERROR: The application failed to launch. (com.apple.dt.CoreDeviceError error 10002 (0x2712))
+       BundleIdentifier = com.facebook.WebDriverAgentRunner3.xctrunner3
+       NSLocalizedFailureReason = The requested application com.facebook.WebDriverAgentRunner3.xctrunner3 is not installed.
+       NSLocalizedRecoverySuggestion = Provide a valid bundle identifier.
+       ----------------------------------------
+           The operation couldn’t be completed. (OSStatus error -10814.) (NSOSStatusErrorDomain error -10814 (0xFFFFD5C2))
+           _LSFunction = runEvaluator
+           _LSLine = 1796
+
+           ./start-wda.sh
+🔄 Cleaning up old processes...
+🛑 Stopping all WDA runners and iproxy...
+✅ All WDA runners and iproxy stopped.
+📱 Checking connected devices...
+✅ Devices detected:
+00008030-00116D5E3A12202E
+00008101-0019752E3C93A01E
+00008110-000C28A12145A01E
+00008110-001C58E03689A01E
+🚀 Starting WDA for 00008030-00116D5E3A12202E on ports WDA=8100 MJPEG=9100:com.facebook.WebDriverAgentRunner1.xctrunner1
+✅ Device 00008030-00116D5E3A12202E ready → WDA: http://localhost:8100 (MJPEG: 9100:com.facebook.WebDriverAgentRunner1.xctrunner1)
+🚀 Starting WDA for 00008101-0019752E3C93A01E on ports WDA=8110 MJPEG=9110:com.facebook.WebDriverAgentRunner2.xctrunner2
+✅ Device 00008101-0019752E3C93A01E ready → WDA: http://localhost:8110 (MJPEG: 9110:com.facebook.WebDriverAgentRunner2.xctrunner2)
+🚀 Starting WDA for 00008110-000C28A12145A01E on ports WDA=8120 MJPEG=9120:com.facebook.WebDriverAgentRunner3.xctrunner3
+✅ Device 00008110-000C28A12145A01E ready → WDA: http://localhost:8120 (MJPEG: 9120:com.facebook.WebDriverAgentRunner3.xctrunner3)
+🚀 Starting WDA for 00008110-001C58E03689A01E on ports WDA=8130 MJPEG=9130:com.facebook.WebDriverAgentRunner4.xctrunner4
+✅ Device 00008110-001C58E03689A01E ready → WDA: http://localhost:8130 (MJPEG: 9130:com.facebook.WebDriverAgentRunner4.xctrunner4)
+🎉 All requested devices processed. Use above webDriverAgentUrl values in Appium.
+YettelBanks-Mac-Studio:mac yettel.bank$ clear
+YettelBanks-Mac-Studio:mac yettel.bank$ chmod +x start-wda.sh
+YettelBanks-Mac-Studio:mac yettel.bank$ ./start-wda.sh
+🔄 Cleaning up old processes...
+✅ Old processes stopped.
+📱 Checking connected devices...
+✅ Devices detected:
+00008030-00116D5E3A12202E
+00008101-0019752E3C93A01E
+00008110-000C28A12145A01E
+00008110-001C58E03689A01E
+🚀 Starting WDA for 00008030-00116D5E3A12202E on ports WDA=8100 MJPEG=9100 (bundle: com.facebook.WebDriverAgentRunner1.xctrunner1)
+⏳ Waiting for WDA on http://localhost:8100/status ...
+⌛ Still waiting (1)...
+⌛ Still waiting (2)...
+⌛ Still waiting (3)...
+⌛ Still waiting (4)...
+⌛ Still waiting (5)...
+⌛ Still waiting (6)...
+⌛ Still waiting (7)...
+⌛ Still waiting (8)...
+⌛ Still waiting (9)...
+⌛ Still waiting (10)...
+⌛ Still waiting (11)...
+⌛ Still waiting (12)...
+⌛ Still waiting (13)...
+⌛ Still waiting (14)...
+⌛ Still waiting (15)...
+❌ WDA failed to start for 00008030-00116D5E3A12202E (check /tmp/wda_00008030-00116D5E3A12202E.log)
+🚀 Starting WDA for 00008101-0019752E3C93A01E on ports WDA=8110 MJPEG=9110 (bundle: com.facebook.WebDriverAgentRunner2.xctrunner2)
+⏳ Waiting for WDA on http://localhost:8110/status ...
+⌛ Still waiting (1)...
+⌛ Still waiting (2)...
+⌛ Still waiting (3)...
+⌛ Still waiting (4)...
+⌛ Still waiting (5)...
+⌛ Still waiting (6)...
+⌛ Still waiting (7)...
+⌛ Still waiting (8)...
+⌛ Still waiting (9)...
+⌛ Still waiting (10)...
+⌛ Still waiting (11)...
+⌛ Still waiting (12)...
+⌛ Still waiting (13)...
+⌛ Still waiting (14)...
+⌛ Still waiting (15)...
+❌ WDA failed to start for 00008101-0019752E3C93A01E (check /tmp/wda_00008101-0019752E3C93A01E.log)
+🚀 Starting WDA for 00008110-000C28A12145A01E on ports WDA=8120 MJPEG=9120 (bundle: com.facebook.WebDriverAgentRunner3.xctrunner3)
+⏳ Waiting for WDA on http://localhost:8120/status ...
+⌛ Still waiting (1)...
+⌛ Still waiting (2)...
+⌛ Still waiting (3)...
+⌛ Still waiting (4)...
+⌛ Still waiting (5)...
+⌛ Still waiting (6)...
+⌛ Still waiting (7)...
+⌛ Still waiting (8)...
+⌛ Still waiting (9)...
+⌛ Still waiting (10)...
+⌛ Still waiting (11)...
+⌛ Still waiting (12)...
+⌛ Still waiting (13)...
+⌛ Still waiting (14)...
+⌛ Still waiting (15)...
+❌ WDA failed to start for 00008110-000C28A12145A01E (check /tmp/wda_00008110-000C28A12145A01E.log)
+🚀 Starting WDA for 00008110-001C58E03689A01E on ports WDA=8130 MJPEG=9130 (bundle: com.facebook.WebDriverAgentRunner4.xctrunner4)
+⏳ Waiting for WDA on http://localhost:8130/status ...
+⌛ Still waiting (1)...
+⌛ Still waiting (2)...
+⌛ Still waiting (3)...
+⌛ Still waiting (4)...
+⌛ Still waiting (5)...
+⌛ Still waiting (6)...
+⌛ Still waiting (7)...
+⌛ Still waiting (8)...
+⌛ Still waiting (9)...
+⌛ Still waiting (10)...
+⌛ Still waiting (11)...
+⌛ Still waiting (12)...
+⌛ Still waiting (13)...
+⌛ Still waiting (14)...
+⌛ Still waiting (15)...
+❌ WDA failed to start for 00008110-001C58E03689A01E (check /tmp/wda_00008110-001C58E03689A01E.log)
+🎉 All requested devices processed.
+YettelBanks-Mac-Studio:mac yettel.bank$ 
+
+rs.yettelbank.WebDriverAgentLib4
+
+rs.yettelbank.WebDriverAgentRunner4
+
+ideviceinstaller -l | grep WebDriverAgent                               
+com.facebook.WebDriverAgentRunner123.xctrunner, "1", "WebDriverAgentRunner-Runner"
+
+ideviceinstaller -l | grep WebDriverAgent
+
+# Device 1 → Runner1
+xcodebuild -project WebDriverAgent.xcodeproj \
+  -scheme WebDriverAgentRunner1 \
+  -destination "id=00008030-00116D5E3A12202E" \
+  build-for-testing install
+
+# Device 2 → Runner2
+xcodebuild -project WebDriverAgent.xcodeproj \
+  -scheme WebDriverAgentRunner2 \
+  -destination "id=00008101-0019752E3C93A01E" \
+  build-for-testing install
+
+# Device 3 → Runner3
+xcodebuild -project WebDriverAgent.xcodeproj \
+  -scheme WebDriverAgentRunner3 \
+  -destination "id=00008110-000C28A12145A01E" \
+  build-for-testing install
+
+# Device 4 → Runner4
+xcodebuild -project WebDriverAgent.xcodeproj \
+  -scheme WebDriverAgentRunner4 \
+  -destination "id=00008110-001C58E03689A01E" \
+  build-for-testing install
+
+
+# go to your working folder
+cd ~/Documents
+
+# clone the official Appium WDA fork
+git clone https://github.com/appium/WebDriverAgent.git
+
+# enter folder
+cd WebDriverAgent
+
+
+JWProxy options: {"scheme":"http","server":"localhost","port":8100,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[ee450032][XCUITestDriver@19bd] NoSessionProxy options: {"scheme":"http","server":"localhost","port":8100,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[ee450032][WD Proxy] NoSessionProxy options: {"server":"localhost","port":"8100","base":"","timeout":3000,"scheme":"http","reqBasePath":"","sessionId":null}
+[ee450032][WD Proxy] Matched '/status' to command name 'getStatus'
+[ee450032][WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[ee450032][WD Proxy] read ECONNRESET
+[ee450032][XCUITestDriver@19bd] WDA is not listening at 'http://localhost:8100/'. Original error:: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+[ee450032][XCUITestDriver@19bd] Event 'wdaSessionAttempted' logged at 1758099755932 (11:02:35 GMT+0200 (Central European Summer Time))
+[ee450032][XCUITestDriver@19bd] Sending createSession command to WDA
+[ee450032][XCUITestDriver@19bd] Matched '/status' to command name 'getStatus'
+[ee450032][XCUITestDriver@19bd] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[ee450032][XCUITestDriver@19bd] read ECONNRESET
+[ee450032][XCUITestDriver@19bd] Event 'wdaSessionFailed' logged at 1758099755938 (11:02:35 GMT+0200 (Central European Summer Time))
+[ee450032][XCUITestDriver@19bd] UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at JWProxy.command (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.proxyCommand (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/commands/proxy-helper.js:100:35)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:926:59
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[ee450032][XCUITestDriver@19bd] {}
+[ee450032][DevCon Factory] Releasing connections for 00008030-00116D5E3A12202E device on any port number
+[ee450032][DevCon Factory] Found cached connections to release: ["00008030-00116D5E3A12202E:8100"]
+[ee450032][DevCon Factory] Cached connections count: 0
+[ee450032][AppiumDriver@911a] Event 'newSessionStarted' logged at 1758099755940 (11:02:35 GMT+0200 (Central European Summer Time))
+[ee450032][AppiumDriver@911a] Encountered internal error running command: Error: Unable to start WebDriverAgent session. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:941:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[ee450032][HTTP] <-- POST /session 500 466 ms - 986 
+[HTTP] --> GET /status {}
+[AppiumDriver@911a] Calling AppiumDriver.getStatus() with args: []
+[AppiumDriver@911a] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.19.0","git-sha":"ef7ea92c494537f78fb80ff94a17d726424fc404","built":"2025-09-16 17:01:14 +0200"}}
+[HTTP] <-- GET /status 200 1 ms - 200 
+
+
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008110-001C58E03689A01E" -l | grep WebDriverAgent
+
+rs.yettelbank.WebDriverAgentRunner4.xctrunner, "1", "WebDriverAgentRunner4-Runner"
+com.facebook.WebDriverAgentRunner.xctrunner, "1", "WebDriverAgentRunner-Runner"
+com.facebook.WebDriverAgentRunner4.xctrunner4.xctrunner, "1", "WebDriverAgentRunner4-Runner"
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008110-000C28A12145A01E" -l | grep WebDriverAgent
+
+rs.yettelbank.WebDriverAgentRunner3.xctrunner, "1", "WebDriverAgentRunner3-Runner"
+com.facebook.WebDriverAgentRunner.xctrunner, "1", "WebDriverAgentRunner-Runner"
+com.facebook.WebDriverAgentRunner3.xctrunner3.xctrunner, "1", "WebDriverAgentRunner3-Runner"
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008101-0019752E3C93A01E" -l | grep WebDriverAgent
+
+com.facebook.WebDriverAgentRunner.xctrunner, "1", "WebDriverAgentRunner-Runner"
+com.facebook.WebDriverAgentRunner2.xctrunner2.xctrunner, "1", "WebDriverAgentRunner2-Runner"
+rs.yettelbank.WebDriverAgentRunner2.xctrunner, "1", "WebDriverAgentRunner2-Runner"
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008030-00116D5E3A12202E" -l | grep WebDriverAgent
+
+rs.yettelbank.WebDriverAgentRunner1.xctrunner, "1", "WebDriverAgentRunner1-Runner"
+yettel.bank@YettelBanks-Mac-Studio Project % 
+
+ideviceinstaller -u "00008030-00116D5E3A12202E" -l | grep WebDriverAgent
+ideviceinstaller -u "00008101-0019752E3C93A01E" -l | grep WebDriverAgent
+ideviceinstaller -u "00008110-000C28A12145A01E" -l | grep WebDriverAgent
+ideviceinstaller -u "00008110-001C58E03689A01E" -l | grep WebDriverAgent
+
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008110-001C58E03689A01E" -l | grep WebDriverAgent
+rs.yettelbank.WebDriverAgentRunner4.xctrunner, "1", "WebDriverAgentRunner4-Runner"
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008110-000C28A12145A01E" -l | grep WebDriverAgent
+rs.yettelbank.WebDriverAgentRunner3.xctrunner, "1", "WebDriverAgentRunner3-Runner"
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008101-0019752E3C93A01E" -l | grep WebDriverAgent
+rs.yettelbank.WebDriverAgentRunner2.xctrunner, "1", "WebDriverAgentRunner2-Runner"
+yettel.bank@YettelBanks-Mac-Studio Project % ideviceinstaller -u "00008030-00116D5E3A12202E" -l | grep WebDriverAgent
+rs.yettelbank.WebDriverAgentRunner1.xctrunner, "1", "WebDriverAgentRunner1-Runner"
+
+delete app:
+ideviceinstaller -u "00008101-0019752E3C93A01E" -U com.facebook.WebDriverAgentRunner.xctrunner
+
+[AppiumDriver@3b57] Calling AppiumDriver.getStatus() with args: []
+[AppiumDriver@3b57] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.15.0","git-sha":"4d14be89e99a45181c18e96a5f19a5b43343cc0f","built":"2025-07-25 16:37:43 +0000"}}
+[HTTP] <-- GET /status 200 1 ms - 200 
+[HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}}
+[AppiumDriver@3b57] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}]
+[AppiumDriver@3b57] Event 'newSessionRequested' logged at 1758198277872 (14:24:37 GMT+0200 (Central European Summer Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver
+[Appium] Requiring driver at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/build/index.js
+[AppiumDriver@3b57] Appium v2.15.0 creating new XCUITestDriver (v9.10.4) session
+[AppiumDriver@3b57] Checking BaseDriver versions for Appium and XCUITestDriver
+[AppiumDriver@3b57] Appium's BaseDriver version is 9.15.0
+[AppiumDriver@3b57] XCUITestDriver's BaseDriver version is 9.18.0
+[XCUITestDriver@b418] 
+[XCUITestDriver@b418] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "IOS",
+    "wdio:options": {
+      "deviceTag": "@iosDevice12_iPhone",
+      "scenarioTags": [
+        "@androidDevice1",
+        "@current",
+        "@iosDevice12_iPhone",
+        "@localJovica_SM_A546B",
+        "@localMilosCards",
+        "@localSinisa_SM_A546B",
+        "@smoke"
+      ]
+    },
+    "appium:automationName": "XCUITest",
+    "appium:bundleId": "rs.yettelbank.mobile.stg",
+    "appium:mjpegServerPort": 9102,
+    "appium:newCommandTimeout": 800,
+    "appium:noReset": true,
+    "appium:udid": "00008101-0019752E3C93A01E",
+    "appium:updatedWDABundleId": "rs.yettelbank.WebDriverAgentRunner2",
+    "appium:usePrebuiltWDA": true,
+    "appium:webDriverAgentUrl": "http://localhost:8102",
+    "appium:wdaLocalPort": 8102,
+    "appium:mjpegScreenshotUrl": "http://localhost:9102"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[XCUITestDriver@b418] The following provided capabilities were not recognized by this driver:
+[XCUITestDriver@b418]   wdio:options
+[XCUITestDriver@b418] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+[7e04de65][XCUITestDriver@b418] Session created with session id: 7e04de65-e57a-4b05-ab38-3bd79bb638c5
+[7e04de65][XCUITest] Current user: 'yettel.bank'
+[7e04de65][XCUITestDriver@b418] Skipping checking of the real devices availability since the session specifies appium:webDriverAgentUrl
+[7e04de65][XCUITestDriver@b418] Creating iDevice object with udid '00008101-0019752E3C93A01E'
+[7e04de65][XCUITestDriver@b418] Determining device to run tests on: udid: '00008101-0019752E3C93A01E', real device: true
+[7e04de65][XCUITestDriver@b418] No platformVersion specified. Using device version: '18.6.2'
+[7e04de65][XCUITestDriver@b418] Normalized platformVersion capability value '18.6.2' to '18.6'
+[7e04de65][XCUITestDriver@b418] Event 'xcodeDetailsRetrieved' logged at 1758198278149 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] Event 'appConfigured' logged at 1758198278149 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] Event 'resetStarted' logged at 1758198278149 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] Reset: fullReset not set. Leaving as is
+[7e04de65][XCUITestDriver@b418] Event 'resetComplete' logged at 1758198278149 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] Using WDA path: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[7e04de65][XCUITestDriver@b418] Using WDA agent: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[7e04de65][XCUITestDriver@b418] The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
+[7e04de65][XCUITestDriver@b418] Event 'logCaptureStarted' logged at 1758198278277 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] Setting up real device
+[7e04de65][DevCon Factory] Requesting connection for device 00008101-0019752E3C93A01E on local port 8102
+[7e04de65][DevCon Factory] Cached connections count: 0
+[7e04de65][DevCon Factory] Successfully requested the connection for 00008101-0019752E3C93A01E:8102
+[7e04de65][XCUITestDriver@b418] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[7e04de65][XCUITestDriver@b418] Trying to start WebDriverAgent once since at least one of webDriverAgentUrl,usePreinstalledWDA capabilities is provided
+[7e04de65][XCUITestDriver@b418] Event 'wdaStartAttempted' logged at 1758198278443 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] Using provided WebdriverAgent at 'http://localhost:8102'
+[7e04de65][XCUITestDriver@b418] JWProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[7e04de65][XCUITestDriver@b418] NoSessionProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[7e04de65][WD Proxy] NoSessionProxy options: {"server":"localhost","port":"8102","base":"","timeout":3000,"scheme":"http","reqBasePath":"","sessionId":null}
+[7e04de65][WD Proxy] Matched '/status' to command name 'getStatus'
+[7e04de65][WD Proxy] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[7e04de65][WD Proxy] read ECONNRESET
+[7e04de65][XCUITestDriver@b418] WDA is not listening at 'http://localhost:8102/'. Original error:: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+[7e04de65][XCUITestDriver@b418] Event 'wdaSessionAttempted' logged at 1758198278515 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] Sending createSession command to WDA
+[7e04de65][XCUITestDriver@b418] Matched '/status' to command name 'getStatus'
+[7e04de65][XCUITestDriver@b418] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[7e04de65][XCUITestDriver@b418] read ECONNRESET
+[7e04de65][XCUITestDriver@b418] Event 'wdaSessionFailed' logged at 1758198278522 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][XCUITestDriver@b418] UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at JWProxy.command (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at XCUITestDriver.proxyCommand (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/commands/proxy-helper.js:100:35)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:926:59
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[7e04de65][XCUITestDriver@b418] {}
+[7e04de65][DevCon Factory] Releasing connections for 00008101-0019752E3C93A01E device on any port number
+[7e04de65][DevCon Factory] Found cached connections to release: ["00008101-0019752E3C93A01E:8102"]
+[7e04de65][DevCon Factory] Cached connections count: 0
+[7e04de65][AppiumDriver@3b57] Event 'newSessionStarted' logged at 1758198278523 (14:24:38 GMT+0200 (Central European Summer Time))
+[7e04de65][AppiumDriver@3b57] Encountered internal error running command: Error: Unable to start WebDriverAgent session. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:941:17
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[7e04de65][HTTP] <-- POST /session 500 658 ms - 940 
+[HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}}
+[AppiumDriver@3b57] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}]
+[AppiumDriver@3b57] Event 'newSessionRequested' logged at 1758198278572 (14:24:38 GMT+0200 (Central European Summer Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver
+[Appium] Requiring driver at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/build/index.js
+[AppiumDriver@3b57] Appium v2.15.0 creating new XCUITestDriver (v9.10.4) session
+[AppiumDriver@3b57] Checking BaseDriver versions for Appium and XCUITestDriver
+[AppiumDriver@3b57] Appium's BaseDriver version is 9.15.0
+[AppiumDriver@3b57] XCUITestDriver's BaseDriver version is 9.18.0
+[XCUITestDriver@da5a] 
+[XCUITestDriver@da5a] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "IOS",
+    "wdio:options": {
+      "deviceTag": "@iosDevice12_iPhone",
+      "scenarioTags": [
+        "@androidDevice1",
+        "@current",
+        "@iosDevice12_iPhone",
+        "@localJovica_SM_A546B",
+        "@localMilosCards",
+        "@localSinisa_SM_A546B",
+        "@smoke"
+      ]
+    },
+    "appium:automationName": "XCUITest",
+    "appium:bundleId": "rs.yettelbank.mobile.stg",
+    "appium:mjpegServerPort": 9102,
+    "appium:newCommandTimeout": 800,
+    "appium:noReset": true,
+    "appium:udid": "00008101-0019752E3C93A01E",
+    "appium:updatedWDABundleId": "rs.yettelbank.WebDriverAgentRunner2",
+    "appium:usePrebuiltWDA": true,
+    "appium:webDriverAgentUrl": "http://localhost:8102",
+    "appium:wdaLocalPort": 8102,
+    "appium:mjpegScreenshotUrl": "http://localhost:9102"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[XCUITestDriver@da5a] The following provided capabilities were not recognized by this driver:
+[XCUITestDriver@da5a]   wdio:options
+[XCUITestDriver@da5a] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+[fb0d29d8][XCUITestDriver@da5a] Session created with session id: fb0d29d8-f77a-4c1e-845b-6fe998a68b22
+[fb0d29d8][XCUITest] Current user: 'yettel.bank'
+[fb0d29d8][XCUITestDriver@da5a] Skipping checking of the real devices availability since the session specifies appium:webDriverAgentUrl
+[fb0d29d8][XCUITestDriver@da5a] Creating iDevice object with udid '00008101-0019752E3C93A01E'
+[fb0d29d8][XCUITestDriver@da5a] Determining device to run tests on: udid: '00008101-0019752E3C93A01E', real device: true
+[fb0d29d8][XCUITestDriver@da5a] No platformVersion specified. Using device version: '18.6.2'
+[fb0d29d8][XCUITestDriver@da5a] Normalized platformVersion capability value '18.6.2' to '18.6'
+[fb0d29d8][XCUITestDriver@da5a] Event 'xcodeDetailsRetrieved' logged at 1758198278728 (14:24:38 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] Event 'appConfigured' logged at 1758198278728 (14:24:38 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] Event 'resetStarted' logged at 1758198278728 (14:24:38 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] Reset: fullReset not set. Leaving as is
+[fb0d29d8][XCUITestDriver@da5a] Event 'resetComplete' logged at 1758198278728 (14:24:38 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] Using WDA path: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[fb0d29d8][XCUITestDriver@da5a] Using WDA agent: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[fb0d29d8][XCUITestDriver@da5a] The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
+[fb0d29d8][XCUITestDriver@da5a] Event 'logCaptureStarted' logged at 1758198278840 (14:24:38 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] Setting up real device
+[fb0d29d8][DevCon Factory] Requesting connection for device 00008101-0019752E3C93A01E on local port 8102
+[fb0d29d8][DevCon Factory] Cached connections count: 0
+[fb0d29d8][DevCon Factory] Successfully requested the connection for 00008101-0019752E3C93A01E:8102
+[fb0d29d8][XCUITestDriver@da5a] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[fb0d29d8][XCUITestDriver@da5a] Trying to start WebDriverAgent once since at least one of webDriverAgentUrl,usePreinstalledWDA capabilities is provided
+[fb0d29d8][XCUITestDriver@da5a] Event 'wdaStartAttempted' logged at 1758198279001 (14:24:39 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] Using provided WebdriverAgent at 'http://localhost:8102'
+[fb0d29d8][XCUITestDriver@da5a] JWProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[fb0d29d8][XCUITestDriver@da5a] NoSessionProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[fb0d29d8][WD Proxy] NoSessionProxy options: {"server":"localhost","port":"8102","base":"","timeout":3000,"scheme":"http","reqBasePath":"","sessionId":null}
+[fb0d29d8][WD Proxy] Matched '/status' to command name 'getStatus'
+[fb0d29d8][WD Proxy] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[fb0d29d8][WD Proxy] read ECONNRESET
+[fb0d29d8][XCUITestDriver@da5a] WDA is not listening at 'http://localhost:8102/'. Original error:: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+[fb0d29d8][XCUITestDriver@da5a] Event 'wdaSessionAttempted' logged at 1758198279007 (14:24:39 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] Sending createSession command to WDA
+[fb0d29d8][XCUITestDriver@da5a] Matched '/status' to command name 'getStatus'
+[fb0d29d8][XCUITestDriver@da5a] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[fb0d29d8][XCUITestDriver@da5a] read ECONNRESET
+[fb0d29d8][XCUITestDriver@da5a] Event 'wdaSessionFailed' logged at 1758198279012 (14:24:39 GMT+0200 (Central European Summer Time))
+[fb0d29d8][XCUITestDriver@da5a] UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at JWProxy.command (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at XCUITestDriver.proxyCommand (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/commands/proxy-helper.js:100:35)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:926:59
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[fb0d29d8][XCUITestDriver@da5a] {}
+[fb0d29d8][DevCon Factory] Releasing connections for 00008101-0019752E3C93A01E device on any port number
+[fb0d29d8][DevCon Factory] Found cached connections to release: ["00008101-0019752E3C93A01E:8102"]
+[fb0d29d8][DevCon Factory] Cached connections count: 0
+[fb0d29d8][AppiumDriver@3b57] Event 'newSessionStarted' logged at 1758198279012 (14:24:39 GMT+0200 (Central European Summer Time))
+[fb0d29d8][AppiumDriver@3b57] Encountered internal error running command: Error: Unable to start WebDriverAgent session. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:941:17
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[fb0d29d8][HTTP] <-- POST /session 500 441 ms - 940 
+[HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}}
+[AppiumDriver@3b57] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}]
+[AppiumDriver@3b57] Event 'newSessionRequested' logged at 1758198279542 (14:24:39 GMT+0200 (Central European Summer Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver
+[Appium] Requiring driver at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/build/index.js
+[AppiumDriver@3b57] Appium v2.15.0 creating new XCUITestDriver (v9.10.4) session
+[AppiumDriver@3b57] Checking BaseDriver versions for Appium and XCUITestDriver
+[AppiumDriver@3b57] Appium's BaseDriver version is 9.15.0
+[AppiumDriver@3b57] XCUITestDriver's BaseDriver version is 9.18.0
+[XCUITestDriver@e32e] 
+[XCUITestDriver@e32e] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "IOS",
+    "wdio:options": {
+      "deviceTag": "@iosDevice12_iPhone",
+      "scenarioTags": [
+        "@androidDevice1",
+        "@current",
+        "@iosDevice12_iPhone",
+        "@localJovica_SM_A546B",
+        "@localMilosCards",
+        "@localSinisa_SM_A546B",
+        "@smoke"
+      ]
+    },
+    "appium:automationName": "XCUITest",
+    "appium:bundleId": "rs.yettelbank.mobile.stg",
+    "appium:mjpegServerPort": 9102,
+    "appium:newCommandTimeout": 800,
+    "appium:noReset": true,
+    "appium:udid": "00008101-0019752E3C93A01E",
+    "appium:updatedWDABundleId": "rs.yettelbank.WebDriverAgentRunner2",
+    "appium:usePrebuiltWDA": true,
+    "appium:webDriverAgentUrl": "http://localhost:8102",
+    "appium:wdaLocalPort": 8102,
+    "appium:mjpegScreenshotUrl": "http://localhost:9102"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[XCUITestDriver@e32e] The following provided capabilities were not recognized by this driver:
+[XCUITestDriver@e32e]   wdio:options
+[XCUITestDriver@e32e] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+[b7a9c972][XCUITestDriver@e32e] Session created with session id: b7a9c972-9170-4d31-8585-8b30e874d93e
+[b7a9c972][XCUITest] Current user: 'yettel.bank'
+[b7a9c972][XCUITestDriver@e32e] Skipping checking of the real devices availability since the session specifies appium:webDriverAgentUrl
+[b7a9c972][XCUITestDriver@e32e] Creating iDevice object with udid '00008101-0019752E3C93A01E'
+[b7a9c972][XCUITestDriver@e32e] Determining device to run tests on: udid: '00008101-0019752E3C93A01E', real device: true
+[b7a9c972][XCUITestDriver@e32e] No platformVersion specified. Using device version: '18.6.2'
+[b7a9c972][XCUITestDriver@e32e] Normalized platformVersion capability value '18.6.2' to '18.6'
+[b7a9c972][XCUITestDriver@e32e] Event 'xcodeDetailsRetrieved' logged at 1758198279710 (14:24:39 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] Event 'appConfigured' logged at 1758198279710 (14:24:39 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] Event 'resetStarted' logged at 1758198279710 (14:24:39 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] Reset: fullReset not set. Leaving as is
+[b7a9c972][XCUITestDriver@e32e] Event 'resetComplete' logged at 1758198279710 (14:24:39 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] Using WDA path: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[b7a9c972][XCUITestDriver@e32e] Using WDA agent: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[b7a9c972][XCUITestDriver@e32e] The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
+[b7a9c972][XCUITestDriver@e32e] Event 'logCaptureStarted' logged at 1758198279821 (14:24:39 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] Setting up real device
+[b7a9c972][DevCon Factory] Requesting connection for device 00008101-0019752E3C93A01E on local port 8102
+[b7a9c972][DevCon Factory] Cached connections count: 0
+[b7a9c972][DevCon Factory] Successfully requested the connection for 00008101-0019752E3C93A01E:8102
+[b7a9c972][XCUITestDriver@e32e] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[b7a9c972][XCUITestDriver@e32e] Trying to start WebDriverAgent once since at least one of webDriverAgentUrl,usePreinstalledWDA capabilities is provided
+[b7a9c972][XCUITestDriver@e32e] Event 'wdaStartAttempted' logged at 1758198279990 (14:24:39 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] Using provided WebdriverAgent at 'http://localhost:8102'
+[b7a9c972][XCUITestDriver@e32e] JWProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[b7a9c972][XCUITestDriver@e32e] NoSessionProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[b7a9c972][WD Proxy] NoSessionProxy options: {"server":"localhost","port":"8102","base":"","timeout":3000,"scheme":"http","reqBasePath":"","sessionId":null}
+[b7a9c972][WD Proxy] Matched '/status' to command name 'getStatus'
+[b7a9c972][WD Proxy] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[b7a9c972][WD Proxy] read ECONNRESET
+[b7a9c972][XCUITestDriver@e32e] WDA is not listening at 'http://localhost:8102/'. Original error:: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+[b7a9c972][XCUITestDriver@e32e] Event 'wdaSessionAttempted' logged at 1758198279997 (14:24:39 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] Sending createSession command to WDA
+[b7a9c972][XCUITestDriver@e32e] Matched '/status' to command name 'getStatus'
+[b7a9c972][XCUITestDriver@e32e] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[b7a9c972][XCUITestDriver@e32e] read ECONNRESET
+[b7a9c972][XCUITestDriver@e32e] Event 'wdaSessionFailed' logged at 1758198280006 (14:24:40 GMT+0200 (Central European Summer Time))
+[b7a9c972][XCUITestDriver@e32e] UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at JWProxy.command (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at XCUITestDriver.proxyCommand (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/commands/proxy-helper.js:100:35)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:926:59
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[b7a9c972][XCUITestDriver@e32e] {}
+[b7a9c972][DevCon Factory] Releasing connections for 00008101-0019752E3C93A01E device on any port number
+[b7a9c972][DevCon Factory] Found cached connections to release: ["00008101-0019752E3C93A01E:8102"]
+[b7a9c972][DevCon Factory] Cached connections count: 0
+[b7a9c972][AppiumDriver@3b57] Event 'newSessionStarted' logged at 1758198280007 (14:24:40 GMT+0200 (Central European Summer Time))
+[b7a9c972][AppiumDriver@3b57] Encountered internal error running command: Error: Unable to start WebDriverAgent session. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:941:17
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[b7a9c972][HTTP] <-- POST /session 500 465 ms - 940 
+[HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}}
+[AppiumDriver@3b57] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"rs.yettelbank.mobile.stg","appium:mjpegServerPort":9102,"appium:newCommandTimeout":800,"appium:noReset":true,"appium:udid":"00008101-0019752E3C93A01E","appium:updatedWDABundleId":"rs.yettelbank.WebDriverAgentRunner2","appium:usePrebuiltWDA":true,"appium:webDriverAgentUrl":"http://localhost:8102","platformName":"IOS","wdio:options":{"deviceTag":"@iosDevice12_iPhone","scenarioTags":["@androidDevice1","@current","@iosDevice12_iPhone","@localJovica_SM_A546B","@localMilosCards","@localSinisa_SM_A546B","@smoke"]}}]}]
+[AppiumDriver@3b57] Event 'newSessionRequested' logged at 1758198281068 (14:24:41 GMT+0200 (Central European Summer Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver
+[Appium] Requiring driver at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/build/index.js
+[AppiumDriver@3b57] Appium v2.15.0 creating new XCUITestDriver (v9.10.4) session
+[AppiumDriver@3b57] Checking BaseDriver versions for Appium and XCUITestDriver
+[AppiumDriver@3b57] Appium's BaseDriver version is 9.15.0
+[AppiumDriver@3b57] XCUITestDriver's BaseDriver version is 9.18.0
+[XCUITestDriver@48f0] 
+[XCUITestDriver@48f0] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "IOS",
+    "wdio:options": {
+      "deviceTag": "@iosDevice12_iPhone",
+      "scenarioTags": [
+        "@androidDevice1",
+        "@current",
+        "@iosDevice12_iPhone",
+        "@localJovica_SM_A546B",
+        "@localMilosCards",
+        "@localSinisa_SM_A546B",
+        "@smoke"
+      ]
+    },
+    "appium:automationName": "XCUITest",
+    "appium:bundleId": "rs.yettelbank.mobile.stg",
+    "appium:mjpegServerPort": 9102,
+    "appium:newCommandTimeout": 800,
+    "appium:noReset": true,
+    "appium:udid": "00008101-0019752E3C93A01E",
+    "appium:updatedWDABundleId": "rs.yettelbank.WebDriverAgentRunner2",
+    "appium:usePrebuiltWDA": true,
+    "appium:webDriverAgentUrl": "http://localhost:8102",
+    "appium:wdaLocalPort": 8102,
+    "appium:mjpegScreenshotUrl": "http://localhost:9102"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[XCUITestDriver@48f0] The following provided capabilities were not recognized by this driver:
+[XCUITestDriver@48f0]   wdio:options
+[XCUITestDriver@48f0] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+[e6ae662c][XCUITestDriver@48f0] Session created with session id: e6ae662c-5f63-453b-a863-928fb4ab69fa
+[e6ae662c][XCUITest] Current user: 'yettel.bank'
+[e6ae662c][XCUITestDriver@48f0] Skipping checking of the real devices availability since the session specifies appium:webDriverAgentUrl
+[e6ae662c][XCUITestDriver@48f0] Creating iDevice object with udid '00008101-0019752E3C93A01E'
+[e6ae662c][XCUITestDriver@48f0] Determining device to run tests on: udid: '00008101-0019752E3C93A01E', real device: true
+[e6ae662c][XCUITestDriver@48f0] No platformVersion specified. Using device version: '18.6.2'
+[e6ae662c][XCUITestDriver@48f0] Normalized platformVersion capability value '18.6.2' to '18.6'
+[e6ae662c][XCUITestDriver@48f0] Event 'xcodeDetailsRetrieved' logged at 1758198281244 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] Event 'appConfigured' logged at 1758198281244 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] Event 'resetStarted' logged at 1758198281244 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] Reset: fullReset not set. Leaving as is
+[e6ae662c][XCUITestDriver@48f0] Event 'resetComplete' logged at 1758198281244 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] Using WDA path: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[e6ae662c][XCUITestDriver@48f0] Using WDA agent: '/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[e6ae662c][XCUITestDriver@48f0] The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
+[e6ae662c][XCUITestDriver@48f0] Event 'logCaptureStarted' logged at 1758198281358 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] Setting up real device
+[e6ae662c][DevCon Factory] Requesting connection for device 00008101-0019752E3C93A01E on local port 8102
+[e6ae662c][DevCon Factory] Cached connections count: 0
+[e6ae662c][DevCon Factory] Successfully requested the connection for 00008101-0019752E3C93A01E:8102
+[e6ae662c][XCUITestDriver@48f0] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[e6ae662c][XCUITestDriver@48f0] Trying to start WebDriverAgent once since at least one of webDriverAgentUrl,usePreinstalledWDA capabilities is provided
+[e6ae662c][XCUITestDriver@48f0] Event 'wdaStartAttempted' logged at 1758198281530 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] Using provided WebdriverAgent at 'http://localhost:8102'
+[e6ae662c][XCUITestDriver@48f0] JWProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[e6ae662c][XCUITestDriver@48f0] NoSessionProxy options: {"scheme":"http","server":"localhost","port":8102,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+[e6ae662c][WD Proxy] NoSessionProxy options: {"server":"localhost","port":"8102","base":"","timeout":3000,"scheme":"http","reqBasePath":"","sessionId":null}
+[e6ae662c][WD Proxy] Matched '/status' to command name 'getStatus'
+[e6ae662c][WD Proxy] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[e6ae662c][WD Proxy] read ECONNRESET
+[e6ae662c][XCUITestDriver@48f0] WDA is not listening at 'http://localhost:8102/'. Original error:: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+[e6ae662c][XCUITestDriver@48f0] Event 'wdaSessionAttempted' logged at 1758198281540 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] Sending createSession command to WDA
+[e6ae662c][XCUITestDriver@48f0] Matched '/status' to command name 'getStatus'
+[e6ae662c][XCUITestDriver@48f0] Proxying [GET /status] to [GET http://localhost:8102/status] with no body
+[e6ae662c][XCUITestDriver@48f0] read ECONNRESET
+[e6ae662c][XCUITestDriver@48f0] Event 'wdaSessionFailed' logged at 1758198281545 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][XCUITestDriver@48f0] UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at JWProxy.command (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at XCUITestDriver.proxyCommand (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/commands/proxy-helper.js:100:35)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:926:59
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[e6ae662c][XCUITestDriver@48f0] {}
+[e6ae662c][DevCon Factory] Releasing connections for 00008101-0019752E3C93A01E device on any port number
+[e6ae662c][DevCon Factory] Found cached connections to release: ["00008101-0019752E3C93A01E:8102"]
+[e6ae662c][DevCon Factory] Cached connections count: 0
+[e6ae662c][AppiumDriver@3b57] Event 'newSessionStarted' logged at 1758198281546 (14:24:41 GMT+0200 (Central European Summer Time))
+[e6ae662c][AppiumDriver@3b57] Encountered internal error running command: Error: Unable to start WebDriverAgent session. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:941:17
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at wrapped (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at /Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/node_modules/appium-xcuitest-driver/lib/driver.js:881:7
+[e6ae662c][HTTP] <-- POST /session 500 479 ms - 940 
+[HTTP] --> GET /status {}
+[AppiumDriver@3b57] Calling AppiumDriver.getStatus() with args: []
+[AppiumDriver@3b57] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.15.0","git-sha":"4d14be89e99a45181c18e96a5f19a5b43343cc0f","built":"2025-07-25 16:37:43 +0000"}}

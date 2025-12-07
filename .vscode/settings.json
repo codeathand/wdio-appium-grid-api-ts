@@ -1,0 +1,20 @@
+{
+  "cucumberautocomplete.steps": ["framework/step-definitions/**/*.ts"],
+  "cucumberautocomplete.syncfeatures": "wdio-mobile-api-ts/features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.strictGherkinValidation": true,
+  "cucumberautocomplete.smartSnippets": true,
+  // "cucumberautocomplete.snippets": {
+  //   "Then I should see {string}": {
+  //     "regexp": "I should see (.*)",
+  //     "function": "Then('I should see {string}', async (param1) => {\n  // your code here\n});"
+  //   }
+  // },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n", // Use LF line endings
+  "prettier.requireConfig": true,
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  }
+}

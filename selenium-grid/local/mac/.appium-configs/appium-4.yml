@@ -1,0 +1,6 @@
+server:
+  port: 4753
+  use-drivers:
+    - xcuitest
+  default-capabilities:
+    appium:wdaLocalPort: 8104

@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug WDIO (Choose Feature)",
+      "program": "${workspaceFolder}/node_modules/@wdio/cli/bin/wdio.js",
+      "args": [
+        "${workspaceFolder}/wdio.dynamic.conf.ts",
+        "--spec",
+        "${input:featureFile}",
+        "--logLevel",
+        "debug"
+      ],
+      "env": {
+        "PLATFORM": "android",
+        "TEST_ENV": "t3",
+        "TAGS": "@current",
+        "USE_GRID": "true",
+        "MACHINE": "windows"
+      },
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "featureFile",
+      "type": "promptString",
+      "description": "Enter the path to the .feature file",
+      "default": "./features/ui-tests/cards/credit_card.feature"
+    }
+  ]
+}

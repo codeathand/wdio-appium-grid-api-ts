@@ -1,0 +1,32 @@
+{
+  "baseData": {
+    "pin": "123456",
+    "sms_code": "111111"
+  },
+  "users": {
+    "development_user": {
+      "phone_number": "11258751",
+      "last_four_digits": "5011",
+      "PIN": "baseData.pin",
+      "account_name": "MILEVA GRBIĆ",
+      "unblock_card_four_digits": "0802",
+      "sms_code": "baseData.sms_code",
+      "unblock_card": "0007",
+      "customerId": "1008071",
+      "experienceId": "2484514",
+      "accountNumber": "0381641949000"
+    },
+    "loans_user": {
+      "phone_number": "292219",
+      "last_four_digits": "0401",
+      "PIN": "baseData.pin",
+      "account_name": "MILORAD MIHAJLOVIĆ",
+      "unblock_card_four_digits": "0877",
+      "sms_code": "baseData.sms_code",
+      "unblock_card": "0877",
+      "customerId": "229421",
+      "experienceId": "1013378",
+      "accountNumber": "0381628995064"
+    }
+  }
+}

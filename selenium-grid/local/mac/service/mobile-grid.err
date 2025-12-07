@@ -1,0 +1,227 @@
+Testing failed:
+	No profiles for 'rs.yettelbank.WebDriverAgentRunner1.xctrunner' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'rs.yettelbank.WebDriverAgentRunner1.xctrunner'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild.
+	Testing cancelled because the build failed.
+
+** TEST FAILED **
+
+
+The following build commands failed:
+	Testing project WebDriverAgent with scheme WebDriverAgentRunner1
+(1 failure)
+Testing failed:
+	No profiles for 'rs.yettelbank.WebDriverAgentRunner2.xctrunner' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'rs.yettelbank.WebDriverAgentRunner2.xctrunner'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild.
+	No signing certificate "iOS Development" found: No "iOS Development" signing certificate matching team ID "892MLFRVZ4" with a private key was found.
+	Testing cancelled because the build failed.
+
+** TEST FAILED **
+
+
+The following build commands failed:
+	Testing project WebDriverAgent with scheme WebDriverAgentRunner2
+(1 failure)
+Testing failed:
+	No profiles for 'rs.yettelbank.WebDriverAgentRunner3.xctrunner' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'rs.yettelbank.WebDriverAgentRunner3.xctrunner'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild.
+	Testing cancelled because the build failed.
+
+** TEST FAILED **
+
+
+The following build commands failed:
+	Testing project WebDriverAgent with scheme WebDriverAgentRunner3
+(1 failure)
+Testing failed:
+	No profiles for 'rs.yettelbank.WebDriverAgentRunner4.xctrunner' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'rs.yettelbank.WebDriverAgentRunner4.xctrunner'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild.
+	Testing cancelled because the build failed.
+
+** TEST FAILED **
+
+
+The following build commands failed:
+	Testing project WebDriverAgent with scheme WebDriverAgentRunner4
+(1 failure)
+[38;5;193m[1120fa79][0m[38;5;149m[XCUITestDriver@b473][0m {}
+[38;5;177m[5e99bd1f][0m[38;5;227m[XCUITestDriver@7f92][0m {}
+[38;5;61m[b2991930][0m[38;5;25m[XCUITestDriver@36c2][0m {}
+[38;5;162m[9d4496d4][0m[38;5;111m[XCUITestDriver@5681][0m {}
+[38;5;184m[1b9d183d][0m[38;5;212m[XCUITestDriver@173b][0m {}
+[38;5;19m[72b977cb][0m[38;5;81m[XCUITestDriver@1674][0m {}
+** BUILD INTERRUPTED **
+Exception in thread "Thread-0" Exception in thread "Thread-0" Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 74: 61103 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject3/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner3 -destination "id=00008110-000C28A12145A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 74: 61105 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject4/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner4 -destination "id=00008110-001C58E03689A01E" clean
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 62086 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject1/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner1 -destination "id=00008030-00116D5E3A12202E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 62088 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject2/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner2 -destination "id=00008101-0019752E3C93A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 62089 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject3/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner3 -destination "id=00008110-000C28A12145A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 62090 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject4/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner4 -destination "id=00008110-001C58E03689A01E" clean
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 63556 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject1/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner1 -destination "id=00008030-00116D5E3A12202E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 63558 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject2/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner2 -destination "id=00008101-0019752E3C93A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 63559 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject3/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner3 -destination "id=00008110-000C28A12145A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 63560 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject4/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner4 -destination "id=00008110-001C58E03689A01E" clean
+Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" 	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+[38;5;181m[5fa26bcd][0m[38;5;74m[XCUITestDriver@296d][0m {}
+[38;5;121m[e8610713][0m[38;5;61m[XCUITestDriver@d0b2][0m {}
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 64500 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject1/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner1 -destination "id=00008030-00116D5E3A12202E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 64502 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject2/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner2 -destination "id=00008101-0019752E3C93A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 64503 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject3/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner3 -destination "id=00008110-000C28A12145A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 82: 64504 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject4/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner4 -destination "id=00008110-001C58E03689A01E" clean
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" 	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+[38;5;25m[86cb63af][0m[38;5;92m[XCUITestDriver@43ce][0m {}
+[38;5;173m[c2aa5012][0m[38;5;200m[XCUITestDriver@2283][0m {}
+[38;5;200m[bfd90960][0m[38;5;222m[XCUITestDriver@a0d8][0m {}
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 86: 67832 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject1/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner1 -destination "id=00008030-00116D5E3A12202E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 86: 67834 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject2/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner2 -destination "id=00008101-0019752E3C93A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 86: 67835 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject3/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner3 -destination "id=00008110-000C28A12145A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 86: 67836 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject4/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner4 -destination "id=00008110-001C58E03689A01E" clean
+/Users/yettel.bank/Project/milos_new_proj/wdio-mobile-api-ts/selenium-grid/local/mac/service/mobile-grid-not-log.sh: line 86: 67837 Killed: 9               xcodebuild -project /Users/yettel.bank/Project/WebDriverAgentProject4/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner4 -destination "id=00008110-001C58E03689A01E" test
+Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:238: execution error: Terminal got an error: Application isn’t running. (-600)
+32:275: execution error: Terminal got an error: Application isn’t running. (-600)
+[38;5;223m[61ff7b6e][0m[38;5;191m[XCUITestDriver@e517][0m {}
+[38;5;123m[a06cc19f][0m[38;5;37m[XCUITestDriver@9913][0m {}
+32:275: execution error: Terminal got an error: Application isn’t running. (-600)
+Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+32:40: execution error: Terminal got an error: Application isn’t running. (-600)
+[38;5;190m[2e24cca8][0m[38;5;227m[XCUITestDriver@232c][0m {}
+32:40: execution error: Terminal got an error: Application isn’t running. (-600)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+[38;5;197m[8ea18e03][0m[38;5;83m[XCUITestDriver@bbe1][0m {}
+[38;5;173m[50762056][0m[38;5;129m[XCUITestDriver@9203][0m {}
+[38;5;109m[e4cca070][0m[38;5;42m[XCUITestDriver@b4f1][0m {}
+Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+[38;5;174m[d7551532][0m[38;5;140m[XCUITestDriver@0f3d][0m {}
+Exception in thread "Thread-0" Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+Exception in thread "Thread-0" Exception in thread "Thread-0" 	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.grid.node.Node.getStatus()" because "this.node" is null
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.openqa.selenium.grid.node.httpd.NodeServer.lambda$new$0(NodeServer.java:79)
+	at java.base/java.lang.Thread.run(Thread.java:1570)

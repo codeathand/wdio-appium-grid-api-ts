@@ -1,0 +1,49 @@
+sudo nano /etc/systemd/system/selenium-grid.service
+
+[Unit]
+Description=Selenium Grid & Appium Device Service
+After=network.target adb.service
+Wants=network-online.target
+
+[Service]
+Type=forking
+User=qateamadm
+WorkingDirectory=/data/tools/selenium-grid/service
+
+# Environment variables for Node + Android SDK
+Environment=PATH=/home/qateamadm/.nvm/versions/node/v20.19.4/bin:/data/tools/npm-global/bin:/usr/local/bin:/usr/bin:/bin:/data/android-sdk/platform-tools:/data/android-sdk/tools/bin
+Environment=ANDROID_HOME=/data/android-sdk
+Environment=ANDROID_SDK_ROOT=/data/android-sdk
+Environment=BASE_DIR=/data/tools/selenium-grid/service
+
+ExecStart=/data/tools/selenium-grid/service/mobile-grid-not-log.sh start
+ExecStop=/data/tools/selenium-grid/service/mobile-grid-not-log.sh stop
+ExecReload=/data/tools/selenium-grid/service/mobile-grid-not-log.sh restart all
+
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
+
+# Permissions & Paths
+sudo chmod +x /data/tools/selenium-grid/service/grid.sh
+
+# test the script manually
+/data/tools/selenium-grid/service/grid.sh start
+
+# Enable and Start the Service
+sudo systemctl daemon-reload
+sudo systemctl enable selenium-grid.service
+sudo systemctl start selenium-grid.service
+
+# Check status:
+sudo systemctl status selenium-grid.service
+
+Command	                                    Action
+sudo systemctl start selenium-grid	        Start Hub, Nodes, Appium, and Forwards
+sudo systemctl stop selenium-grid	        Stop everything
+sudo systemctl restart selenium-grid	    Restart all
+sudo systemctl status selenium-grid	        Check running status
+sudo journalctl -u selenium-grid -f	        Follow logs live

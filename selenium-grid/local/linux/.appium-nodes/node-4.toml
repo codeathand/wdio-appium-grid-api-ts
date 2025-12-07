@@ -1,0 +1,12 @@
+[server]
+port = 5562
+
+[node]
+detect-drivers = false
+
+[relay]
+url = "http://localhost:4753"
+status-endpoint = "/status"
+configs = [
+    "1", "{\"platformName\": \"android\", \"appium:automationName\": \"UIAutomator2\", \"appium:udid\": \"RZCWB10MP0M\", \"appium:platformVersion\": \"15\", \"appium:systemPort\": \"8103\"}"
+]
