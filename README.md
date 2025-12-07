@@ -5,6 +5,10 @@
 git init
 git status
 git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/codeathand/wdio-appium-grid-api-ts.git
+git push -u origin main
+git push https://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@github.com/codeathand/wdio-appium-grid-api-ts.git main
 
 git remote set-url origin https://github.com/codeathand/wdio-mobile-api-ts.git
 git remote -v
