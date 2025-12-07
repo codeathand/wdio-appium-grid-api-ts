@@ -4,14 +4,14 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: {}     # <-- manual trigger
+  workflow_dispatch: {} # <-- manual trigger
   schedule:
-    - cron: "0 2 * * *"     # <-- run on schedule (02:00 daily)
+    - cron: '0 2 * * *' # <-- run on schedule (02:00 daily)
 
 jobs:
   current_t2:
-    runs-on: ubuntu-latest
-    timeout-minutes: 180     # <-- 3h
+    runs-on: self-hosted
+    timeout-minutes: 180 # <-- 3h
 
     steps:
       - uses: actions/checkout@v4
