@@ -78,3 +78,5 @@ artifacts/
 # Ignore mjpeg-viewers files
 mjpeg-viewers/
 
+actions-runner/
+
