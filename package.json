@@ -8,7 +8,7 @@
     "PRE:lint": "npx eslint framework -c eslint.config.mjs --fix",
     "PRE:format": "prettier . --check --write",
     "PRE:tidyup": "npm run PRE:lint && npm run PRE:format",
-    "PRE:cleanup-reports": "rimraf reports",
+    "PRE:cleanup-reports": "npx rimraf reports",
     "______start_grid_scripts______": "===== Start Grid(s) =====",
     "grid:start:windows": "cross-env MACHINE=windows ts-node selenium-grid/local/start_grid.ts",
     "grid:start:linux": "cross-env MACHINE=linux ts-node selenium-grid/local/start_grid.ts",

@@ -7,7 +7,7 @@ Feature: Settings lifecicle
     @current
     @localBase1
     @user=development_user
-    Scenario: MOB-2739/MOB-3974_current_account_change_pin
+    Scenario: Example cards app
         When the user open app
 # And the user completes activation process
 # Then the user completes PIN change
