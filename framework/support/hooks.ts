@@ -32,7 +32,7 @@ BeforeAll(async function () {
   memory.set('sessionStartTime', new Date().toISOString());
   memory.set('deviceTag', deviceTag);
   const id = currentCapability?.['wdio:options']!.sessionId;
-  console.log('===== SESSION ID =====', id);
+  console.log('✅       ===== SESSION ID =====', id);
   console.log('===== DEVICE TAG =====', deviceTag);
   //
   if (browser.isAndroid) {
@@ -64,7 +64,7 @@ Before(async function (scenario) {
 
   const sessionId = memory.get('sessionId');
   const sessionStartTime = memory.get('sessionStartTime');
-  console.log(`ℹ️ [Hook] ${sessionId} ${sessionStartTime}`);
+  console.log(`           ℹ️ [Hook] ✅ ${sessionId} ${sessionStartTime}`);
 
   //
   const deviceTag = memory.get('deviceTag');
@@ -164,10 +164,11 @@ After(async function (scenario) {
 
 AfterAll(async function () {
   console.log('🔚 [Hook - AfterAll] scenarios finished');
-  // //
-  // const sessionId = memory.get('sessionId');
-  // console.log(`🔚 Ending session: ${sessionId}`);
-  // //
+  //
+  const currentCapability = (global as any).browser?.capabilities as any;
+  const sessionId = currentCapability?.['wdio:options']?.sessionId;
+  console.log(`🔚 Ending session: ${sessionId}`);
+  //
   try {
     await terminateOrRestartApp();
   } catch (err) {
